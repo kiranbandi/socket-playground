@@ -1,0 +1,28 @@
+{
+  "name": "socket-playground",
+  "version": "1.0.0",
+  "description": "Real time editing",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiranbandi/socket-playground.git"
+  },
+  "keywords": [
+    "socket"
+  ],
+  "author": "kiranbandi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kiranbandi/socket-playground/issues"
+  },
+  "homepage": "https://github.com/kiranbandi/socket-playground#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "socket.io": "^2.1.1",
+    "uniqid": "^5.0.3"
+  }
+}

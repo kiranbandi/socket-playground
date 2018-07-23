@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <style>
+        .innerBox {
+            width: 50px;
+            height: 50px;
+            background: grey;
+            margin: 2px;
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        .listElement {
+            cursor: pointer;
+            margin-bottom: 15px;
+            width: 150px;
+        }
+        
+        .listElement.anchor {
+            border-bottom: 5px solid darkred;
+        }
+        
+        .innerBox.selected {
+            background: red;
+        }
+        
+        .innerBox.active {
+            border: 5px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1></h1>
+    <h3>Your unique ID is <span id='myID'></span></h3>
+    <h4>People in the chat room currently</h4>
+    <ul id='phantomList'></ul>
+    <div id='boxContainer'></div>
+
+    <script src="/jquery.js"></script>
+    <script src="/socket.io.js"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>
